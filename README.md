@@ -12,12 +12,17 @@ This project demonstrates a multi-stage Docker setup:
 ---
 
 ## 📦 Folder Structure
-. 
+
 ├── Dockerfile 
+
 ├── scrape.js 
+
 ├── server.py 
+
 ├── package.json 
+
 ├── requirements.txt 
+
 └── README.md
 
 
