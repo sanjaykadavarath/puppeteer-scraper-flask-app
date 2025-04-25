@@ -26,8 +26,8 @@ Before you begin, ensure that you have the following installed:
 
 The project consists of two main parts:
 
-1. **Scraper (Node.js with Puppeteer)**: A Node.js script (`scraper.js`) that uses Puppeteer to scrape content from a specified URL and stores the output in a JSON file.
-2. **Web Server (Flask)**: A simple Flask web server (`app.py`) that reads the scraped JSON data and serves it via an HTTP endpoint.
+1. **Scraper (Node.js with Puppeteer)**: A Node.js script (`scrape.js`) that uses Puppeteer to scrape content from a specified URL and stores the output in a JSON file.
+2. **Web Server (Flask)**: A simple Flask web server (`server.py`) that reads the scraped JSON data and serves it via an HTTP endpoint.
 
 ### Scraping Flow:
 
@@ -54,8 +54,8 @@ The Dockerfile includes two stages:
 Start by cloning this repository to your local machine:
 
 ```bash
-git clone https://github.com/sanjaykadavarath/scraper-flask-app.git
-cd scraper-flask-app
+git clone https://github.com/sanjaykadavarath/puppeteer-scraper-flask-app-docker.git
+cd scraper-flask-app-docker
 ```
 
 ### Step 2: Create Docker Image
