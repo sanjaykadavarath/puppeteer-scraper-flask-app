@@ -54,8 +54,8 @@ The Dockerfile includes two stages:
 Start by cloning this repository to your local machine:
 
 ```bash
-git clone https://github.com/sanjaykadavarath/puppeteer-scraper-flask-app-docker.git
-cd scraper-flask-app-docker
+git clone https://github.com/sanjaykadavarath/puppeteer-scraper-flask-app.git
+cd puppeteer-scraper-flask-app
 ```
 
 ### Step 2: Create Docker Image
